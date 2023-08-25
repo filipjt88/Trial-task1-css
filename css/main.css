@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -269,7 +268,6 @@ article:hover {
 }
 
 /* About */
-
 .about {
     display: flex;
     flex-direction: column;
@@ -298,7 +296,6 @@ article:hover {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
 
 .about button {
     padding: 5px 40px;
@@ -385,6 +382,7 @@ article:hover {
 
 /* End of our products */
 
+/* Card */
 .card {
     background-color: var(--light);
     -webkit-box-shadow: 7px 10px 5px -5px rgba(0, 0, 0, 0.75);
@@ -421,6 +419,7 @@ article:hover {
     color: var(--blue);
 }
 
+/* end of Card */
 
 /* Contact */
 .contact {
@@ -638,7 +637,6 @@ footer p {
         font-size: 1rem;
     }
 }
-
 
 @media(max-width:500px) {
     .contact-form {
