@@ -1,40 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trial task1 css</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rent a car</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <script src='https://kit.fontawesome.com/d2b9ed9144.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://assets.stickpng.com/images/61f7cd9467553f0004c53e76.png" class="img-fluid" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Destinations</a>
-              <a class="nav-link" href="#">Contact</a>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 g-0">
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav class="navbar" id="navbar">
+                    <div class="navbar-header">
+                        <span class="nav-close">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
+                    <ul class="nav-items">
+                        <li><a href="#index.html" class="nav-link">Home</a></li>
+                        <li><a href="#skills.html" class="nav-link">About</a></li>
+                        <li><a href="#about.html" class="nav-link">Cars</a></li>
+                        <li><a href="#products.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-          </div>
         </div>
-      </nav>
-    <!-- end of Navbar -->
+        <div class="row">
+            <div class="col-md-12 g-0">
+                <header>
+                    <h2 class="mt-5">Welcome to our website</h2>
+                    <h1 class="display-4 mt-5">We offer excellent car models</h1>
+                    <button>Read More</button>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <section id="descriptions" class="sidebar g-0">
+            <article>
+                    <div class="col-md-3">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <span>Warranty</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rerum?</p>
+                </div>
+                <div class="col-md-3">
+                   <i class="fa-solid fa-shield-halved"></i>
+                    <span>Security</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rerum?</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa-solid fa-check-double"></i>
+                    <span>Comfort</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rerum?</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>Balance</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rerum?</p>
+                </div>
+            </article>
+            </section>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-5 offset-1">
+                <img src="https://www.motortrend.com/uploads/2022/04/2023-Mercedes-AMG-C43-sedan-9.jpg?fit=around%7C875:492.1875" alt="Mercedes" class="img-fluid about-img">
+            </div>
+            <div class="col-md-5 offset-1">
+                <section id="about" class="about">
+                    <h3>About Our Mercedes</h3>
+                    <h1>Safety comes first</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo rem laborum, ullam distinctio reiciendis commodi quas ratione ad maiores doloremque! <del>Ab tempora nisi voluptas modi nobis, adipisci id nihil hic quos</del> ipsum consequatur voluptatum officiis asperiores magni eos aliquid. Quod id quae, distinctio eveniet nihil excepturi voluptatibus cum dolores voluptates!</p>
+                    <button>Learn More</button>
+                </section>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <section id="products" class="our-products">
+                <div class="col-md-4">
+                    <h1>Our Models</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, aliquam dolore repellendus necessitatibus similique debitis ratione suscipit! Ab, voluptates itaque.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="col-md-2">
+                    <div class="image">
+                        <img src="img/audiA4.jpg"
+                            alt="" class="img-fluid">
+                        <p>Audi A4</p>
+                        <strong>Price per day: $39.99</strong>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="image">
+                        <img src="img/bmw3.webp"
+                            alt="" class="img-fluid">
+                        <p>Bmw 3 series</p>
+                        <strong>Price per day: $49.99</strong>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="image">
+                        <img src="img/mercCclass.jpg"
+                            alt="" class="img-fluid">
+                        <p>Mercedes E class</p>
+                        <strong>Price per day: $59.99</strong>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <h1 class="display-4 text-center mb-5 mt-5 cars-product-heading">Our Cars</h1>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/audiA4.jpg" alt="Audi A6">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-center"><b>Audi A6</b></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi enim vitae excepturi asperiores corrupti sint mollitia sit! Praesentium, accusamus?</p>
+                        </div>
+                        <div class="card-footer">
+                            <b>Price: 55$ per day</b>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/bmw5.jpg" alt="Bmw serie 5">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-center"><b>Bmw serie 5</b></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, corporis exercitationem quaerat natus veritatis voluptates soluta minima. Minima, accusamus? Cupiditate!</p>
+                        </div>
+                        <div class="card-footer">
+                            <b>Price: 65$ per day</b>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/eclass.jpg" alt="Mercedes E class">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-center"><b>Mercedes E class</b></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum sed dignissimos cum consectetur reprehenderit fugit nulla voluptatibus sapiente? Nam.</p>
+                        </div>
+                        <div class="card-footer">
+                            <b>Price: 75$ per day</b>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="img/Volvo.webp" alt="Volvo S 60">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-center"><b>Volvo S 60</b></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum sed dignissimos cum consectetur reprehenderit fugit nulla voluptatibus sapiente? Nam.</p>
+                        </div>
+                        <div class="card-footer">
+                            <b>Price: 60$ per day</b>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="contact">
+                <div class="col-md-5">
+                    <div class="contact-location">
+                        <h4>Address</h4>
+                        <p><i class="fa-solid fa-location-arrow"></i> 523 Fairfax Los Angeles, 21313</p>
+                        <h4>Email</h4>
+                        <p><i class="fa-regular fa-envelope"></i> fairfax@gmail.com</p>
+                        <h4>Phone</h4>
+                        <p><i class="fa-solid fa-phone-volume"></i> + 123 456 789</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-form">
+                        <form action="https://formspree.io/f/xbjeygwe" method="POST">
+                            <h1 class="text-center">Contact Us</h1>
+                            <input type="text" class="form-control" name="name" placeholder="First name . . . " /><br>
+                            <input type="email" class="form-control" name="email" placeholder="Last name . . ." /><br>
+                            <textarea name="message" class="form-control" cols="30" rows="10"
+                                placeholder="Message . . ."></textarea><br>
+                            <button type="submt" class="form-control">Submit here</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 g-0">
+                <footer>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <p>&copy; 2023 RENT A CAR ALL RIGHTS RESERVED</p>
+                </footer>
+            </div>
+        </div>
+    </div>
 
 
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
