@@ -288,6 +288,10 @@ article:hover {
     transform: translate(10px, 30%);
 }
 
+.about p {
+    text-indent: 30px;
+}
+
 .about p::first-letter {
     color: red;
     font-size: 1.5rem;
